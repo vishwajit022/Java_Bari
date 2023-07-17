@@ -1,6 +1,5 @@
 package Intro;
 
-import java.lang.*;
 import java.util.*;
 
 public class input {
