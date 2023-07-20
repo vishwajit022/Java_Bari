@@ -13,9 +13,15 @@ class Child extends Parent {
     }
 }
 
+class GrandChild extends Child {
+    public GrandChild() {
+        System.out.println("Grand Child Constructor");
+    }
+}
+
 public class inheritanceConstructor {
     public static void main(String arg[]) {
-        Child c = new Child(); // This will print both of the classes
+        Child c = new Child(); // This will print both of the classes but first Parent class will execute
         // Child ch= new Parent();
         // We cannot create a parent class using a Child class
         // Two ways to create
@@ -26,6 +32,20 @@ public class inheritanceConstructor {
 
         Parent ch = new Parent();
 
+        // Similarly we are going to create one more Object of Grand child class
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        System.out.println(" ");
+
+        GrandChild g = new GrandChild();
+
+        // Here all the things will be printed in an heriarchial manner without missing
+        // out anyone
     }
 
 }
