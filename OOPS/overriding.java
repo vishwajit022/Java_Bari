@@ -7,6 +7,7 @@ class Super {
 }
 
 class Sub extends Super {
+    @Override
     void display() {
         System.out.println("Hello World");
     }
