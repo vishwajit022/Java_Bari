@@ -11,6 +11,7 @@ public class error {
             System.out.println(c);
 
         } catch (ArithmeticException e) {
+            System.out.println(e);
             System.out.println("Division by zero");
         }
         // It can be use to avoid risk of exception while user is using program
