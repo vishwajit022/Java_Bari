@@ -1,5 +1,5 @@
 
-package checkedunchecked;
+package ErrorHandling;
 
 class LowBalanceException extends Exception {
     public String toString() {
@@ -7,7 +7,7 @@ class LowBalanceException extends Exception {
     }
 }
 
-public class CheckedUnchecked {
+public class errorcheckedandunchecked {
     static void fun1() {
         try {
             throw new LowBalanceException();
