@@ -11,6 +11,8 @@ class Display extends Thread {
 
     // Why we don't write these methods as static why do we get error when we
     // declare it as static
+    // Answer because it would break the contract and behavior of how threads work
+    // in Java.
     public void run() {
         while (true) {
             System.out.println("Class");
