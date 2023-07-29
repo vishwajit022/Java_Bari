@@ -9,6 +9,8 @@ class Display extends Thread {
     // to run thread
     // So when we start the thread compiler knows what are we looking for
 
+    // Why we don't write these methods as static why do we get error when we
+    // declare it as static
     public void run() {
         while (true) {
             System.out.println("Class");
