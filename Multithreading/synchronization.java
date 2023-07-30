@@ -45,7 +45,6 @@ class Thread2 extends Thread {
     }
 }
 
-// Main class "synchronization"
 public class synchronization {
     public static void main(String arg[]) {
         // Create a Display object
