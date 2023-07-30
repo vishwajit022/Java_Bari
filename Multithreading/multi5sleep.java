@@ -2,13 +2,17 @@ package Multithreading;
 
 class Display extends Thread {
     public void run() {
+        int i = 1;
         while (true) {
-            System.out.println("Class");
+            i = i + 1;
+
+            System.out.println("Class" + i++);
             try {
-                Thread.sleep(100);
+                Thread.sleep(10000);
             } catch (Exception e) {
                 System.out.println(e);
             }
+
         }
     }
 }
