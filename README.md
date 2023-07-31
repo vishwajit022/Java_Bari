@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello, World!</title>
+<tittle></tittle>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
