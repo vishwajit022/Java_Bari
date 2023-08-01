@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  
-  <title>Let's do some warm up before we play with some real stuff</title>
+  <title> Let's do some warm up before we play with some real stuff </title>
 </head>
 
 <body>
