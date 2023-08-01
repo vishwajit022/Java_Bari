@@ -28,3 +28,5 @@ public class errorcheckedandunchecked {
         fun3();
     }
 }
+
+/*The exception `LowBalanceException` is a checked exception. Checked exceptions are those that need to be either caught or declared in the method signature using the `throws` keyword. In the given code, the `LowBalanceException` is caught in the `catch` block of the `fun1()` method, which makes it a checked exception.*/
