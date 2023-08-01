@@ -26,9 +26,25 @@ public class lang3wrapper {
 
         float f = 12.5f;
         Float h = Float.valueOf(f);
-        float k = h.floatValue();
+        float k = h;
         System.out.println(k);
         // Autoboxing
+
+        int q = 20;
+        Integer i = Integer.valueOf(q);
+        int l = i;
+        System.out.println(l);
+
+        int m = 15;
+        Integer n = Integer.valueOf(m);
+        Integer o = 15;
+        System.out.println(n.equals(o));
+        // True
+
+        Integer m1 = Integer.valueOf(12);
+        Integer m2 = Integer.valueOf("1010", 2);
+        System.out.println(m2);
+        // We can use it to change binary to decimal
 
     }
 }
