@@ -46,5 +46,14 @@ public class lang3wrapper {
         System.out.println(m2);
         // We can use it to change binary to decimal
 
+        float a = 12.5f;
+        Float b = 12.5f / 0;
+        System.out.println(b.isInfinite());
+
+        float w = 12.5f;
+        Float x = (float) Math.sqrt(a);
+        System.out.println(x);
+        System.out.println(x.isNaN());
+
     }
 }
