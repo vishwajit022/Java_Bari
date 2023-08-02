@@ -6,7 +6,7 @@ public class lang5Math {
         int a = (int) (Math.random() * 10);
         System.out.println(a);
 
-        // Power
+        // Power 4*4=16
         int b = (int) Math.pow(4, 2);
         System.out.println(b);
     }
