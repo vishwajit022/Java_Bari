@@ -1,58 +1,54 @@
-package OOPS;
-
 class Rectangle {
-    private int length;
-    private int breadth;
+    private int length; // Private instance variable to store the length of the rectangle
+    private int breadth; // Private instance variable to store the breadth of the rectangle
 
     public int getLength() {
-        return length;
+        return length; // Getter method to retrieve the length of the rectangle
     }
 
-    public void setlength(int l) {
+    public void setLength(int l) {
         if (l > 0) {
-            length = l;
+            length = l; // Setter method to set the length of the rectangle with the provided value
         } else {
-            length = 0;
+            length = 0; // If the provided value is not valid (less than or equal to 0), set length to 0
         }
     }
 
-    public int getbreadth() {
-        return breadth;
+    public int getBreadth() {
+        return breadth; // Getter method to retrieve the breadth of the rectangle
     }
 
-    public void setbreadth(int l) {
+    public void setBreadth(int l) {
         if (l > 0) {
-            breadth = l;
+            breadth = l; // Setter method to set the breadth of the rectangle with the provided value
         } else {
-            breadth = 0;
+            breadth = 0; // If the provided value is not valid (less than or equal to 0), set breadth to
+                         // 0
         }
     }
 
     public double area() {
-        return length * breadth;
+        return length * breadth; // Method to calculate and return the area of the rectangle
     }
-
 }
 
 public class datahiding {
 
     // Let's not modify our code from the main method
-    // let's make it more confidential or more secure so not all user could update
+    // Let's make it more confidential or more secure so not all users can update
     // the properties of the object
-    // we can update the properties using getter method or setter method
+    // We can update the properties using getter method or setter method
 
     public static void main(String arg[]) {
         Rectangle r = new Rectangle();
 
-        r.setlength(5);
+        r.setLength(5); // Set the length of the rectangle to 5 using the setter method
 
-        System.out.println(r.getLength());
+        System.out.println(r.getLength()); // Display the length of the rectangle using the getter method
 
-        r.setbreadth(6);
-        System.out.println(r.getbreadth());
+        r.setBreadth(6); // Set the breadth of the rectangle to 6 using the setter method
+        System.out.println(r.getBreadth()); // Display the breadth of the rectangle using the getter method
 
-        System.out.println(r.area());
-
+        System.out.println(r.area()); // Calculate and display the area of the rectangle using the area() method
     }
-
 }

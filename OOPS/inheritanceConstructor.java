@@ -1,10 +1,7 @@
-package OOPS;
-
 class Parent {
     public Parent() {
-        System.out.println("Parent Construct ");
+        System.out.println("Parent Constructor");
     }
-
 }
 
 class Child extends Parent {
@@ -21,31 +18,26 @@ class GrandChild extends Child {
 
 public class inheritanceConstructor {
     public static void main(String arg[]) {
-        Child c = new Child(); // This will print both of the classes but first Parent class will execute
-        // Child ch= new Parent();
-        // We cannot create a parent class using a Child class
-        // Two ways to create
-        // 1: Child c = (Child) new Parent();
-        // 2: Parent c = new Parent();
-        // Tip:- Narrowing Broadening concept
+        Child c = new Child(); // This will print both of the classes, first Parent constructor will execute,
+                               // followed by Child constructor.
+
+        // Note: We cannot create a Parent object using a Child class directly.
+
         System.out.println("Break                          :");
 
-        Parent ch = new Parent();
+        Parent ch = new Parent(); // This will only print the Parent constructor.
 
-        // Similarly we are going to create one more Object of Grand child class
-
-        System.out.println(" ");
-
-        System.out.println(" ");
-
-        System.out.println(" ");
+        // Similarly, we are going to create one more object of GrandChild class.
 
         System.out.println(" ");
 
         GrandChild g = new GrandChild();
 
-        // Here all the things will be printed in an heriarchial manner without missing
-        // out anyone
+        // Here all the constructors will be printed in a hierarchical manner without
+        // missing
+        // out anyone. First, Parent constructor will execute, then Child constructor,
+        // and finally
+        // Grand Child constructor.
     }
 
 }

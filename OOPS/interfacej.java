@@ -1,5 +1,3 @@
-package OOPS;
-
 interface Test {
     void meth1();
 
@@ -22,16 +20,25 @@ class My implements Test {
 
 public class interfacej {
     public static void main(String args[]) {
-        // We can extend a class only once but we can implement a class multiplenumber
-        // of times.
-        Test t = new My();
-        t.meth1();
-        t.meth2();
+        // Interface allows us to achieve multiple inheritance in Java.
+        // We can extend a class only once (single inheritance) but we can implement
+        // multiple interfaces.
+
+        // We create an object of the 'My' class but we refer to it using the reference
+        // of the 'Test' interface.
+        // This allows us to access only the methods defined in the 'Test' interface.
+
+        Test t = new My(); // Creating an object of 'My' class but referring to it using the 'Test'
+                           // interface reference.
+        t.meth1(); // This calls the 'meth1()' method of the 'My' class and prints "Test Class from
+                   // Meth1".
+        t.meth2(); // This calls the 'meth2()' method of the 'My' class and prints "Test Class from
+                   // Meth2".
+
         // t.meth3();
-        // SImilarly like we did in inheritance here test class is used as reference and
-        // Test class doesn't have meth3()
-        // & that's why it will throw an exception thread
-
+        // This line will cause a compilation error since the 'meth3()' method is not
+        // defined in the 'Test' interface. The reference 't' of type 'Test' can only
+        // access the methods declared in the 'Test' interface, not any other methods
+        // that might be present in the 'My' class.
     }
-
 }

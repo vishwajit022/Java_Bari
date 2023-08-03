@@ -1,5 +1,3 @@
-package Multithreading;
-
 // Define a class "Yield" that extends the "Thread" class
 class Yield extends Thread {
     // Override the "run()" method, which will be executed when the thread starts

@@ -1,5 +1,3 @@
-package OOPS;
-
 import java.lang.*;
 
 class Super {
@@ -25,13 +23,29 @@ class Sub extends Super {
 
 public class runtimepolymorphism {
     public static void main(String arg[]) {
+        // Create an instance of Sub class but store it in a reference of Super class
         Super s = new Sub();
-        s.meth1(); // Super Meth1
-        s.meth2(); // Sub Meth2
-        // s.meth3();
-        // Since we created s object instance using the reference of Super class
-        // And Super class doesn't have meth 3 as a result we won't be able to utilise
-        // the meth3 method
 
+        // Call methods using the reference of Super class
+
+        s.meth1();
+        // Output: "Super Meth1"
+        // The meth1() method is in the Super class and not overridden in the Sub class,
+        // so the Super class version is called.
+
+        s.meth2();
+        // Output: "Sub Meth2"
+        // The meth2() method is overridden in the Sub class, so the Sub class version
+        // is called.
+
+        // s.meth3();
+        // Compilation Error
+        // The meth3() method is not present in the Super class, so we cannot call it
+        // using the reference of the Super class. It can only be called using a
+        // reference of the Sub class.
+
+        // Note: In Java, the method that gets called is determined by the actual object
+        // type at runtime, not the reference type. This is called runtime polymorphism
+        // or dynamic method dispatch.
     }
 }

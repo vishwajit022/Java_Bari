@@ -1,5 +1,4 @@
-package OOPS;
-
+// Class Phone: Represents a basic phone with call and text functionality.
 class Phone {
     void call() {
         System.out.println("Phone Call");
@@ -10,6 +9,8 @@ class Phone {
     }
 }
 
+// Interface MusicPlayer: Defines default methods 'play()' and 'pause()' for
+// playing and pausing music.
 interface MusicPlayer {
     default void play() {
         System.out.println("Play Music");
@@ -20,12 +21,15 @@ interface MusicPlayer {
     }
 }
 
+// Interface Camera: Defines a default method 'click()' for taking a picture.
 interface Camera {
     default void click() {
-        System.out.println("CLick a Picture");
+        System.out.println("Click a Picture");
     }
 }
 
+// Class Smartphone: Represents a smartphone that extends Phone and implements
+// MusicPlayer and Camera interfaces.
 class Smartphone extends Phone implements MusicPlayer, Camera {
 
 }
@@ -33,6 +37,7 @@ class Smartphone extends Phone implements MusicPlayer, Camera {
 public class interfacejsmartphone {
     public static void main(String arg[]) {
         Smartphone s = new Smartphone();
-        s.play();
+        s.play(); // This will call the 'play()' method from the MusicPlayer interface since the
+                  // Smartphone class implements it.
     }
 }
