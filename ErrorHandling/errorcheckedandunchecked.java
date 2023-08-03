@@ -1,32 +1,34 @@
+package ErrorHandling; // Declares the package name "ErrorHandling"
 
-package ErrorHandling;
-
-class LowBalanceException extends Exception {
-    public String toString() {
-        return "Balance Should not be less than 5000";
+class LowBalanceException extends Exception { // Defines a custom checked exception class named "LowBalanceException"
+                                              // which extends the "Exception" class
+    public String toString() { // Overrides the "toString" method of the "Exception" class
+        return "Balance Should not be less than 5000"; // Returns a custom error message when the exception is converted
+                                                       // to a string
     }
 }
 
-public class errorcheckedandunchecked {
-    static void fun1() {
+public class errorcheckedandunchecked { // Defines a class named "errorcheckedandunchecked"
+
+    static void fun1() { // Defines a static method named "fun1"
         try {
-            throw new LowBalanceException();
-        } catch (LowBalanceException e) {
-            System.out.println(e);
+            throw new LowBalanceException(); // Throws a custom checked exception "LowBalanceException"
+        } catch (LowBalanceException e) { // Catches the custom checked exception "LowBalanceException"
+            System.out.println(e); // Prints the custom error message returned by the "toString" method of
+                                   // "LowBalanceException"
         }
     }
 
-    static void fun2() {
-        fun1();
+    static void fun2() { // Defines a static method named "fun2"
+        fun1(); // Calls the "fun1" method
     }
 
-    static void fun3() {
-        fun2();
+    static void fun3() { // Defines a static method named "fun3"
+        fun2(); // Calls the "fun2" method
     }
 
-    public static void main(String[] args) {
-        fun3();
+    public static void main(String[] args) { // Main method, the entry point of the program
+        fun3(); // Calls the "fun3" method, triggering the chain of method calls and exception
+                // handling
     }
 }
-
-/*The exception `LowBalanceException` is a checked exception. Checked exceptions are those that need to be either caught or declared in the method signature using the `throws` keyword. In the given code, the `LowBalanceException` is caught in the `catch` block of the `fun1()` method, which makes it a checked exception.*/
