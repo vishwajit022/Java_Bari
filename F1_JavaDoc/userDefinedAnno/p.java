@@ -5,6 +5,10 @@ package F1_JavaDoc.userDefinedAnno;
     String name(); // Element 'name' of type String in the annotation.
 
     String project(); // Element 'project' of type String in the annotation.
+
+    String date() default "today";
+
+    String version() default "2.0";
 }
 
 // Main class p
