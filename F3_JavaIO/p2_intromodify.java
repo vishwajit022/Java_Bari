@@ -4,6 +4,18 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 public class p2_intromodify {
+
+    /*
+     * However, this is not a common practice. Instead, it's usually better to
+     * handle exceptions within the main method using try and catch blocks to
+     * provide appropriate error handling. This is because exceptions that are
+     * thrown from the main method might not be easily caught and handled by the
+     * caller (the Java runtime in this case).
+     * 
+     * In general, it's good practice to handle exceptions as close to where they
+     * occur as possible, rather than relying on higher-level methods (like main) or
+     * the caller to handle them.
+     */
     public static void main(String arg[]) throws Exception {
         // Create a FileOutputStream to write data to a file
         FileOutputStream f = new FileOutputStream("C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/test.txt");
