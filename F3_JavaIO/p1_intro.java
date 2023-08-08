@@ -4,7 +4,7 @@ import java.io.*;
 
 public class p1_intro {
 
-    public static void main(String arg[]) throws Exception {
+    public static void main(String arg[]) {
         try {
             // Create a FileOutputStream to write data to a file
             FileOutputStream f = new FileOutputStream("C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/test.txt");
@@ -16,6 +16,8 @@ public class p1_intro {
             f.write(str.getBytes());
             f.close();
 
+        } catch (Exception e) {
+            System.out.print(e);
         } finally {
             System.out.println("Ran");
         }
