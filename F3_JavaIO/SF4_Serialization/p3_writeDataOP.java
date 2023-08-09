@@ -13,7 +13,7 @@ class Student {
     int roll;
 }
 
-public class p3_writeserialized {
+public class p3_writeDataOP {
     public static void main(String arg[]) throws Exception {
         FileOutputStream f = new FileOutputStream(
                 "C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/SF4_Serialization/data2.txt");

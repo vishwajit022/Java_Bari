@@ -14,7 +14,7 @@ class Student {
 
 }
 
-public class p2_read {
+public class p2_readBufferedIP {
     public static void main(String arg[]) throws Exception {
         Student s = new Student();
         FileInputStream fi = new FileInputStream(

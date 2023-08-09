@@ -10,7 +10,7 @@ class Student {
     int roll;
 }
 
-public class p4_readSerialized {
+public class p4_readDataIP {
     public static void main(String arg[]) throws IOException {
         Student s = new Student();
         FileInputStream f = new FileInputStream(

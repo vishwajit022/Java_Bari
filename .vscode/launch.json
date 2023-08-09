@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p1_typecasting",
+            "request": "launch",
+            "mainClass": "F4_Generics.p1_typecasting",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p6_readObjectSerialized",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SF4_Serialization.p6_readObjectSerialized",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p5_writeObjectSerialized",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SF4_Serialization.p5_writeObjectSerialized",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p4_readSerialized",
             "request": "launch",
             "mainClass": "F3_JavaIO.SF4_Serialization.p4_readSerialized",

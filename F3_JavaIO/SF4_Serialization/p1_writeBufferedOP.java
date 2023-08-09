@@ -9,7 +9,7 @@ class Student {
     String dept;
 }
 
-public class p1_write {
+public class p1_writeBufferedOP {
     public static void main(String arg[]) throws Exception {
         FileOutputStream fo = new FileOutputStream(
                 "C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/SF4_Serialization/data.txt");
