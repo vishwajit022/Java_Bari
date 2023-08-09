@@ -27,5 +27,6 @@ public class p1_write {
         p.println(s.dept);
         p.println(s.name);
         p.println(s.roll);
+
     }
 }
