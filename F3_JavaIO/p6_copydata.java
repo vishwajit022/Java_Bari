@@ -3,7 +3,9 @@ package F3_JavaIO;
 import java.io.*;
 
 public class p6_copydata {
-    public static void main(String arg[]) throws Exception {
+    public static void main(String arg[]) throws Exception
+
+    {
 
         // File input stream for reading from the file
         FileInputStream fi = new FileInputStream("C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/source1.txt");
@@ -17,13 +19,17 @@ public class p6_copydata {
         while ((b = fi.read()) != -1) {
             if (b >= 65 && b <= 90) {
                 // Convert uppercase to lowercase by adding 32 and casting back to byte
-                fo.write((byte) (b + 32));
-            } else {
+                fo.write((char) (b + 32));
+            }
+            // Apart from uppercase letter all the letter or special characters will be
+            // copied as it is
+            else {
                 fo.write(b);
             }
         }
 
-        // Close the streams
+        // Close the input and output streams to release resources
+
         fi.close();
         fo.close();
     }
