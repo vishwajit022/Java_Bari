@@ -2,7 +2,7 @@ package F3_JavaIO;
 
 import java.io.*;
 
-public class p1_intro {
+public class p1_outputstream {
 
     public static void main(String arg[]) {
         try {
@@ -10,7 +10,7 @@ public class p1_intro {
             FileOutputStream f = new FileOutputStream("C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/test.txt");
 
             // The string to be written to the file
-            String str = "Learn javaa ";
+            String str = "Learn Java Programming ";
 
             // Convert the string to bytes and write them to the file
             f.write(str.getBytes());
@@ -19,7 +19,7 @@ public class p1_intro {
         } catch (Exception e) {
             System.out.print(e);
         } finally {
-            System.out.println("Ran");
+            System.out.println("Program Ran");
         }
     }
 }

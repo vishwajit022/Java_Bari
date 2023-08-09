@@ -19,6 +19,8 @@ public class p5_inputstreambitbybit {
                  * reached. This is a common pattern in file reading operations. Let's break
                  * down why the -1 condition is used in the while loop:
                  */
+
+                // Narrowing Broadening Typecasting
                 System.out.print((char) x);
             }
 

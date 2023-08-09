@@ -7,6 +7,7 @@ public class p4_inputstream {
         try (FileInputStream f = new FileInputStream("C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/test.txt")) {
 
             // Create a byte array to hold the content of the file
+            // f.available returns an int value which gives the length of a document
             byte b[] = new byte[f.available()];
 
             // Read the content of the file into the byte array

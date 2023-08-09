@@ -3,7 +3,7 @@ package F3_JavaIO;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
-public class p2_intromodify {
+public class p2_opstreammodify {
 
     /*
      * However, this is not a common practice. Instead, it's usually better to
