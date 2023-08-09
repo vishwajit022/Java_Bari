@@ -23,6 +23,7 @@ public class p3_writeserialized {
         s.dept = "CS";
         s.name = "Vishwajit";
 
+        // This input stream allow us to write the data in it's own data type
         d.writeUTF(s.name);
         d.writeUTF(s.dept);
         d.writeInt(s.roll);
