@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p2_read",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SF4_Serialization.p2_read",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p1_write",
             "request": "launch",
             "mainClass": "F3_JavaIO.SF4_Serialization.p1_write",
