@@ -1,4 +1,4 @@
-package F3_JavaIO;
+package F3_JavaIO.SequentialAccess;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 
 public class p12_BufferedInputStream {
     public static void main(String arg[]) throws Exception {
-        //BufferedInputStream == BufferedReader
+        // BufferedInputStream == BufferedReader
         FileInputStream fi = new FileInputStream("C:/Users/vishw/Documents/GitHub/Java_Bari/F3_JavaIO/p12_Buffer.txt");
         BufferedInputStream bi = new BufferedInputStream(fi);
 

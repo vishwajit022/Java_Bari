@@ -1,4 +1,4 @@
-package F3_JavaIO;
+package F3_JavaIO.SequentialAccess;
 
 //In this program we are going to merge two files and store them into a third file 
 //We are going to get it in using Sequence output Stream

@@ -1,4 +1,4 @@
-package F3_JavaIO.F1_PipedStreams;
+package F3_JavaIO.SequentialAccess;
 
 import java.io.*;
 /*Object Initialization: Constructors are used to initialize the state of an object when it is created. They ensure that the object starts with a valid and consistent state.
@@ -88,7 +88,7 @@ class Consumer extends Thread {
     }
 }
 
-public class intro {
+public class p3_PipedIO {
     public static void main(String arg[]) throws Exception {
         // Create a PipedInputStream and PipedOutputStream
         PipedInputStream pi = new PipedInputStream();

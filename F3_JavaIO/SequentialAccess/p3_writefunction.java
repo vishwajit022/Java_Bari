@@ -1,4 +1,4 @@
-package F3_JavaIO;
+package F3_JavaIO.SequentialAccess;
 
 import java.io.*;
 
