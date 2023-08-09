@@ -1,0 +1,489 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "intro",
+            "request": "launch",
+            "mainClass": "Array.intro",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "twoDArray",
+            "request": "launch",
+            "mainClass": "Array.twoDArray",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "innerclass",
+            "request": "launch",
+            "mainClass": "Classes.innerclass",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "intro(1)",
+            "request": "launch",
+            "mainClass": "Conditional.intro",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "leapyear",
+            "request": "launch",
+            "mainClass": "Conditional.leapyear",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "oddeven",
+            "request": "launch",
+            "mainClass": "Conditional.oddeven",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "switchDay",
+            "request": "launch",
+            "mainClass": "Conditional.switchDay",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "error",
+            "request": "launch",
+            "mainClass": "ErrorHandling.error",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "errorcheckedandunchecked",
+            "request": "launch",
+            "mainClass": "ErrorHandling.errorcheckedandunchecked",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "errorthrowthrows",
+            "request": "launch",
+            "mainClass": "ErrorHandling.errorthrowthrows",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "errorthrowthrows2",
+            "request": "launch",
+            "mainClass": "ErrorHandling.errorthrowthrows2",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "errorzfinally",
+            "request": "launch",
+            "mainClass": "ErrorHandling.errorzfinally",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "trywithresources",
+            "request": "launch",
+            "mainClass": "ErrorHandling.trywithresources",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p2_deprecated",
+            "request": "launch",
+            "mainClass": "F1_JavaDoc.InbuiltJavaDoc.p2_deprecated",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p3_supressWarnings",
+            "request": "launch",
+            "mainClass": "F1_JavaDoc.InbuiltJavaDoc.p3_supressWarnings",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p4_SafeVarargs",
+            "request": "launch",
+            "mainClass": "F1_JavaDoc.InbuiltJavaDoc.p4_SafeVarargs",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "intro(2)",
+            "request": "launch",
+            "mainClass": "F2_Lambda.intro",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p1_revusinglambda",
+            "request": "launch",
+            "mainClass": "F2_Lambda.p1_revusinglambda",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p2_upperletterusingconstructor",
+            "request": "launch",
+            "mainClass": "F2_Lambda.p2_upperletterusingconstructor",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p1_intro",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.RandomAccess.p1_intro",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p10_ByteOutputStream",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p10_ByteOutputStream",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p11_CharArrayReader",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p11_CharArrayReader",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p12_BufferedInputStream",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p12_BufferedInputStream",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p13_PipedIO",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p13_PipedIO",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p1_outputstream",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p1_outputstream",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p2_opstreammodify",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p2_opstreammodify",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p3_writefunction",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p3_writefunction",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p4_inputstream",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p4_inputstream",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p5_inputstreambitbybit",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p5_inputstreambitbybit",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p6_copydata",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p6_copydata",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p7_mergecopy",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p7_mergecopy",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p8_ByteStrea",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p8_ByteStrea",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p9_ByteInputStreamReadAll",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SequentialAccess.p9_ByteInputStreamReadAll",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "First",
+            "request": "launch",
+            "mainClass": "Intro.First",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "input",
+            "request": "launch",
+            "mainClass": "Intro.input",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "inttobinary",
+            "request": "launch",
+            "mainClass": "Intro.inttobinary",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "print",
+            "request": "launch",
+            "mainClass": "Intro.print",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "radiz",
+            "request": "launch",
+            "mainClass": "Intro.radiz",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "lan1",
+            "request": "launch",
+            "mainClass": "Lang_Package.lan1",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "lang2overriding",
+            "request": "launch",
+            "mainClass": "Lang_Package.lang2overriding",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "lang3wrapper",
+            "request": "launch",
+            "mainClass": "Lang_Package.lang3wrapper",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "lang4String",
+            "request": "launch",
+            "mainClass": "Lang_Package.lang4String",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "lang5Math",
+            "request": "launch",
+            "mainClass": "Lang_Package.lang5Math",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "lang6Enum",
+            "request": "launch",
+            "mainClass": "Lang_Package.lang6Enum",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "multi1usingloops",
+            "request": "launch",
+            "mainClass": "Multithreading.multi1usingloops",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "multi2interface",
+            "request": "launch",
+            "mainClass": "Multithreading.multi2interface",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "multi3zhatkastyle",
+            "request": "launch",
+            "mainClass": "Multithreading.multi3zhatkastyle",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "multi7yield",
+            "request": "launch",
+            "mainClass": "Multithreading.multi7yield",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "Constructor",
+            "request": "launch",
+            "mainClass": "OOPS.Constructor",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "abstractclass",
+            "request": "launch",
+            "mainClass": "OOPS.abstractclass",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "inheritance",
+            "request": "launch",
+            "mainClass": "OOPS.inheritance",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "inheritanceConstructor",
+            "request": "launch",
+            "mainClass": "OOPS.inheritanceConstructor",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "interfacej",
+            "request": "launch",
+            "mainClass": "OOPS.interfacej",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "interfacejprimeMember",
+            "request": "launch",
+            "mainClass": "OOPS.interfacejprimeMember",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "interfacejsmartphone",
+            "request": "launch",
+            "mainClass": "OOPS.interfacejsmartphone",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "overriding2",
+            "request": "launch",
+            "mainClass": "OOPS.overriding2",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "superj",
+            "request": "launch",
+            "mainClass": "OOPS.thisandsuper.superj",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "compare",
+            "request": "launch",
+            "mainClass": "compare",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "create",
+            "request": "launch",
+            "mainClass": "create",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "email",
+            "request": "launch",
+            "mainClass": "email",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "loops.factorial",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "fibo",
+            "request": "launch",
+            "mainClass": "loops.fibo",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "intro(3)",
+            "request": "launch",
+            "mainClass": "loops.intro",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "sumnnaturals",
+            "request": "launch",
+            "mainClass": "loops.sumnnaturals",
+            "projectName": "Java_Bari_71a412fd"
+        }
+    ]
+}

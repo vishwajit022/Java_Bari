@@ -88,7 +88,7 @@ class Consumer extends Thread {
     }
 }
 
-public class p3_PipedIO {
+public class p13_PipedIO {
     public static void main(String arg[]) throws Exception {
         // Create a PipedInputStream and PipedOutputStream
         PipedInputStream pi = new PipedInputStream();
