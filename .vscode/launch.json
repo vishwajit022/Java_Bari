@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "p1_write",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SF4_Serialization.p1_write",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p2_fileControlAccess",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SF3_FileHandling.p2_fileControlAccess",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p1_intro",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SF3_FileHandling.p1_intro",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
