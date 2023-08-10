@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p1_arrayList",
+            "request": "launch",
+            "mainClass": "F5_Collections.p1_arrayList",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p5_wildcard",
+            "request": "launch",
+            "mainClass": "F4_Generics.p4_BoundsOnGenerics.p5_wildcard",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p3_MethodGenerics",
+            "request": "launch",
+            "mainClass": "F4_Generics.p4_BoundsOnGenerics.p3_MethodGenerics",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p2_extendsGenerics",
             "request": "launch",
             "mainClass": "F4_Generics.p4_BoundsOnGenerics.p2_extendsGenerics",
