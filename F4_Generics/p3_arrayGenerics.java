@@ -35,9 +35,9 @@ public class p3_arrayGenerics {
         // ma.append(30);
         // ma.display(); // Add this line to display the elements
 
-        MyArray<String> ma = new MyArray(23);
+        MyArray ma = new MyArray(23);
         ma.append("Vishwajit");
-        ma.append("Vikas");
+        ma.append(Integer.valueOf(10));
         ma.append("Ingole");
         ma.display();
     }
