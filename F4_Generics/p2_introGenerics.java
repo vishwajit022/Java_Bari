@@ -21,11 +21,15 @@ public class p2_introGenerics {
     public static void main(String arg[]) {
         // Creating an instance of the Data class with a specific type parameter (String
         // in this case)
-        Data<String> d = new Data();
-        // Assigning a value to the object within the Data instance
-        d.setobj("Vishwajit");
+        // Data<String> d = new Data();
+        // // Assigning a value to the object within the Data instance
+        // d.setobj("Vishwajit");
 
-        // Retrieving the stored value and printing it
-        System.out.print(d.getobj());
+        // // Retrieving the stored value and printing it
+        // System.out.print(d.getobj());
+
+        Data<Integer> d = new Data();
+        d.setobj(20);
+        System.out.println(d.getobj());
     }
 }

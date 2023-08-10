@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p3_arrayGenerics",
+            "request": "launch",
+            "mainClass": "F4_Generics.p3_arrayGenerics",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p2_introGenerics",
             "request": "launch",
             "mainClass": "F4_Generics.p2_introGenerics",
