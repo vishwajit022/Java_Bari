@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p2_extendsGenerics",
+            "request": "launch",
+            "mainClass": "F4_Generics.p4_BoundsOnGenerics.p2_extendsGenerics",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p1_noParam",
+            "request": "launch",
+            "mainClass": "F4_Generics.p4_BoundsOnGenerics.p1_noParam",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p3_arrayGenerics",
             "request": "launch",
             "mainClass": "F4_Generics.p3_arrayGenerics",

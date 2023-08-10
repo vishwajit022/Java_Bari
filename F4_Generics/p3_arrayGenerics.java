@@ -1,7 +1,7 @@
 package F4_Generics;
 
 class MyArray<T> {
-    T[] A; // Declare an array of type T
+    T A[]; // Declare an array of type T
     int length = 0;
 
     // Constructor to initialize the array
@@ -35,9 +35,9 @@ public class p3_arrayGenerics {
         // ma.append(30);
         // ma.display(); // Add this line to display the elements
 
-        MyArray ma = new MyArray(23);
+        MyArray<String> ma = new MyArray(23);
         ma.append("Vishwajit");
-        ma.append(Integer.valueOf(10));
+        ma.append("Vikas");
         ma.append("Ingole");
         ma.display();
     }
