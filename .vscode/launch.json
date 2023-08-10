@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p4_priorityQueue",
+            "request": "launch",
+            "mainClass": "F5_Collections.p4_priorityQueue",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p3_ArrayDeque",
+            "request": "launch",
+            "mainClass": "F5_Collections.p3_ArrayDeque",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p1_arrayList",
             "request": "launch",
             "mainClass": "F5_Collections.p1_arrayList",
