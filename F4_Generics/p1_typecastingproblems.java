@@ -1,6 +1,6 @@
 package F4_Generics;
 
-public class p1_typecasting {
+public class p1_typecastingproblems {
     public static void main(String arg[]) {
         // Object is the Parent of all the classes so we can use an Object to create a
         // string
