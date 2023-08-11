@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p10_LinkedHashMap",
+            "request": "launch",
+            "mainClass": "F5_Collections.p10_LinkedHashMap",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p8_TreeMap",
+            "request": "launch",
+            "mainClass": "F5_Collections.p8_TreeMap",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p7_treeSetwithComparableInterface",
+            "request": "launch",
+            "mainClass": "F5_Collections.p7_treeSetwithComparableInterface",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p6_treeSet",
+            "request": "launch",
+            "mainClass": "F5_Collections.p6_treeSet",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p5_hashset",
+            "request": "launch",
+            "mainClass": "F5_Collections.p5_hashset",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p4_priorityQueue",
             "request": "launch",
             "mainClass": "F5_Collections.p4_priorityQueue",
