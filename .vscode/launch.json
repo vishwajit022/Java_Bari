@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p10_LinkedHashMapCache",
+            "request": "launch",
+            "mainClass": "F5_Collections.p10_LinkedHashMapCache",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p10_LinkedHashMap",
             "request": "launch",
             "mainClass": "F5_Collections.p10_LinkedHashMap",
