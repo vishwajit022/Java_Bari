@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p12_properties",
+            "request": "launch",
+            "mainClass": "F5_Collections.p12_properties",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p11_Hashtable",
+            "request": "launch",
+            "mainClass": "F5_Collections.p11_Hashtable",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p10_LinkedHashMapCache",
             "request": "launch",
             "mainClass": "F5_Collections.p10_LinkedHashMapCache",
