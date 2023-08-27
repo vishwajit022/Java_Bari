@@ -17,5 +17,26 @@
     <p>By dividing the networking process into these seven layers, the OSI model allows for better understanding, troubleshooting, and development of networking technologies.</p>
     <h2>Conclusion:</h2>
     <p>The OSI model provides a structured approach to understanding how communication works in computer networks. It serves as a foundation for networking professionals to design, implement, and maintain complex systems.</p>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>TCP/IP Model Explained</title>
+</head>
+<body>
+    <h1>TCP/IP Model Explained</h1>
+    <p>The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a networking framework that is used to guide the design and operation of the Internet and modern networking systems. It consists of four interconnected layers that define how data is transmitted and received over a network.</p>
+    <h2>The Four Layers of the TCP/IP Model:</h2>
+    <ol>
+        <li><strong>Network Interface Layer:</strong> Also known as the Link Layer or Network Access Layer, this layer deals with the physical connection to the network. It defines how data packets are formatted for transmission over the medium, including Ethernet, Wi-Fi, and other technologies.</li>
+        <li><strong>Internet Layer:</strong> Responsible for addressing, routing, and fragmenting data packets. It includes the famous IP (Internet Protocol) which provides the addressing scheme used to identify devices on the network.</li>
+        <li><strong>Transport Layer:</strong> Manages end-to-end communication and data segmentation. The TCP (Transmission Control Protocol) provides reliable and ordered delivery of data, while UDP (User Datagram Protocol) offers a faster, connectionless approach suitable for tasks like streaming.</li>
+        <li><strong>Application Layer:</strong> The topmost layer that deals with user-level communication and application-specific protocols. It includes protocols like HTTP (Hypertext Transfer Protocol), SMTP (Simple Mail Transfer Protocol), FTP (File Transfer Protocol), and more.</li>
+    </ol>
+    <p>The TCP/IP model serves as the foundation of the Internet and most modern networking environments. It's widely used due to its scalability, flexibility, and compatibility with various networking technologies.</p>
+    <h2>Conclusion:</h2>
+    <p>The TCP/IP model provides a structured approach to networking, allowing devices and systems from different vendors to communicate seamlessly over networks. It's a crucial concept for anyone involved in networking and internet technologies.</p>
+</body>
+</html>
+
 </body>
 </html>
