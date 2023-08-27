@@ -17,12 +17,6 @@
     <p>By dividing the networking process into these seven layers, the OSI model allows for better understanding, troubleshooting, and development of networking technologies.</p>
     <h2>Conclusion:</h2>
     <p>The OSI model provides a structured approach to understanding how communication works in computer networks. It serves as a foundation for networking professionals to design, implement, and maintain complex systems.</p>
-    <!DOCTYPE html>
-<html>
-<head>
-    <title>TCP/IP Model Explained</title>
-</head>
-<body>
     <h1>TCP/IP Model Explained</h1>
     <p>The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a networking framework that is used to guide the design and operation of the Internet and modern networking systems. It consists of four interconnected layers that define how data is transmitted and received over a network.</p>
     <h2>The Four Layers of the TCP/IP Model:</h2>
