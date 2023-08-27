@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p1_revecho",
+            "request": "launch",
+            "mainClass": "F6_Networking.p1_revecho",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "F6_Networking.Client",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
+            "name": "p1_managingFiles",
+            "request": "launch",
+            "mainClass": "F3_JavaIO.SF3_FileHandling.p1_managingFiles",
+            "projectName": "Java_Bari_71a412fd"
+        },
+        {
+            "type": "java",
             "name": "p_13StringTokenizer",
             "request": "launch",
             "mainClass": "F5_Collections.p_13StringTokenizer",
